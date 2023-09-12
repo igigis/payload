@@ -1,4 +1,4 @@
-# ratdemo
+# Project EDR
 Proof of Value
 
 Disable Microsoft Defender
